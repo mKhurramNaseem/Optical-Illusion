@@ -37,8 +37,7 @@ class BallCirclePainter extends CustomPainter {
     var frontCircleCenter =
         getCircumPoint(frontCircleRadius, angle, centerOffset);
     // Small Balls which seems to be rotating
-    var smallCircleRadius = frontCircleRadius * _smallBallsRadiusPercent;
-    var smallCirclePaint = Paint()..color = Colors.grey;
+    var smallCircleRadius = frontCircleRadius * _smallBallsRadiusPercent;    
     // Sublisting to show appropriate no. of balls at a time
     subListOfAngles = ballAngles.sublist(ballAngles.initialIndex, ballsCount);
     if (showLines) {
