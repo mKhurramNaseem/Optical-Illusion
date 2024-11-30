@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:optical_illusion/list_page.dart';
 import 'package:optical_illusion/optical_illusion.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const OpticalIllusion(),
+      home: const ListPage(),
     );
   }
 }
